@@ -16,7 +16,7 @@
 # print(name + "'s favorite sport of all time is "+ sport +".")
 
 # 4 Day of the Week
-# day = int(input('Day (0-6)? '))
+# day = int(input('Day (0-6)? (Please choose a number from 1 to 6)'))
 # if(day == 0):
 #     print("Sunday")
 # elif(day == 1):
@@ -29,30 +29,37 @@
 #     print("Thursday")
 # elif(day == 5):
 #     print("Friday")    
-# else:
+# elif(day == 6):
 #     print("Saturday")
+# else:
+#     print("Please enter number from 1 to 6!")
 
 # 5 Work or Sleep In?
 # day = int(input('Day (0-6)? '))
-# if(day == 0):
-#     print("Sleep In!")
-# elif(day == 1):
-#     print("Work Day!")
-# elif(day == 2):
-#     print("Work Day!")
-# elif(day == 3):
-#     print("Work Day!")
-# elif(day == 4):
-#     print("Work Day!")
-# elif(day == 5):
-#     print("Work Day!")    
-# else:
-#     print("Sleep In!")
+# while True:
+#     if(day == 0):
+#         print("Sleep In!")
+#     elif(day == 1):
+#         print("Work Day!")
+#     elif(day == 2):
+#         print("Work Day!")
+#     elif(day == 3):
+#         print("Work Day!")
+#     elif(day == 4):
+#         print("Work Day!")
+#     elif(day == 5):
+#         print("Work Day!")    
+#     elif(day == 6):
+#         print("Sleep In!")
+#     else:
+#         print("Please try again!")
+#     break
 
 #6 Celsius to Fahrenheit
-# Celsius = int(input("Temperature in C? "))
-# Fahrenheit = (Celsius * 1.8) +32
-# print(Fahrenheit, " F")
+Celsius = int(input("Temperature in C? "))
+Fahrenheit = (Celsius * 1.8) +32
+print(Fahrenheit, " F")
+
 
 #7 Tip Calculator
 # totalBill = int(input("Total bill amount? "))
@@ -90,15 +97,15 @@
 #   print(count)
 
 #10 How many coins
-coinsCount = 0
-print("You have {} coins.".format(coinsCount))
-while True:
-    coinsQuestion = input("Do you want another? (yes or no)")
-    if coinsQuestion == 'yes':
-        coinsCount += 1
-        print("You have {} coins.".format(coinsCount))
-    elif coinsQuestion == 'no':
-        print("Bye")
-        break
-    else:
-        print("Please type yes or no!")
+# coinsCount = 0
+# print("You have {} coins.".format(coinsCount))
+# while True:
+#     coinsQuestion = input("Do you want another? (yes or no)")
+#     if coinsQuestion == 'yes':
+#         coinsCount += 1
+#         print("You have {} coins.".format(coinsCount))
+#     elif coinsQuestion == 'no':
+#         print("Bye")
+#         break
+#     else:
+#         print("Please type yes or no!")
