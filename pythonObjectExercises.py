@@ -14,7 +14,7 @@
 # # Add a num_friends method
 #     def num_friends(self):
 #         print(len(self.friends))
-    
+# # Add a greet other person method with adding counter   
 #     def greet(self,other_person):
 #         # Count number of greetings
 #         self.greet_count += 1
